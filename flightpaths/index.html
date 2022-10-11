@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175332372-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175332372-1');
+        </script>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="referrer" content="always">
+        
+        <link rel="canonical" href="/">
+        <meta name="description" content="Digital experience of Extant&#039;s Flight Paths. A blind musician, a Goze, guides you in four directions exploring Japanese culture and aeriel performers on silk.">
+        <title>Flight Paths</title>
+        <link rel="stylesheet" href="https://use.typekit.net/sqp3ude.css">
+
+        
+        <link rel="stylesheet" href="./assets/build/css/main.css?id=15e319f4a085aa7e55c3">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#603cba">
+        <meta name="theme-color" content="#ffffff">
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Flight Paths" />
+        <meta property="og:url" content="https://flightpaths.extant.org.uk" />
+        <meta property="og:description" content="Digital experience of Extant&#039;s Flight Paths. A blind musician, a Goze, guides you in four directions exploring Japanese culture and aeriel performers on silk." />
+        <meta property="og:image" content="//flightpaths.extant.org.uk/flightpaths-og.jpg" />
+        <meta property="og:image:width" content="1920" />
+        <meta property="og:image:height" content="1080" />
+    </head>
+    <body class="horizontal-recommended">
+        <header class="main_head" role="header"  >
+            <h1 class="fp-logo" id="fp-logo">Flight Paths</h1>
+        </header>
+
+        <main  class="main" id="main-content-area">
+            
+<div  id="flightpaths-app-holder"  aria-live="off">
+
+
+<div class="load-overlay" id="intro-starter"  tabindex="-1">
+  <span class="vid-loading" id="vid-loading" aria-busy="true" aria-live="off" aria-label="loading video">Loading</span>
+  <h2 id="headphone_intro" class="headphone_intro" ><span class="firstline">Welcome to Flight Paths.</span> <span class="br">For the best experience,</span> <span class="br">please put on your headphones</span></h2>
+  <div class="start-options" id="start-options" tabindex="0" role="navigation">
+    <a id="info-reveal" href="#tips" class=""  aria-label="Tips on exploring Flight Paths." >Tips on exploring Flight Paths.</a>
+    
+    <ul id="start-options-list" class="start-options-list" > 
+      
+      
+      <li><button id="default-start"  class="button large" aria-label="Start Flight Paths." >Start</button></li>
+      <li><button id="subtitle-start" class="button hollow"  aria-label="Start with Subtitles." >Start - with subtitles</button></li>
+    </ul>
+  </div>
+
+  
+
+  <div class="force-horizontal" >
+    <div>
+    <p>Please rotate your device to view Flight Paths</p>
+    </div>
+    <div>
+      <a id="ignore-rotate" href="#">Continue in portrait mode</a>
+    </div>
+  </div>
+
+  
+
+</div>
+
+
+<div id="flightpaths-app" role="application" tabindex="-1" aria-live="off">
+
+  
+  <div id="video-mask" tabindex="-1"></div>
+
+  <div aria-hidden="true"  role="presentation" id="video-holder" class="video-holder video-hidden" tabindex="-1">
+    <div class="video-block" id="video-player" ></div>
+    
+  </div>
+
+  <a class="skip-link" id="skip-link" href="#video-player">Skip intro</a>
+ 
+
+
+  <div id="crossroads" class="crossroads-holder" tabindex="-1" >
+    
+    <div role="presentation">
+      <audio id="crossroads-audio"  loop>
+        <source src="./assets/audio/Goze_beginning_atmos.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      
+      <div class="crossroads">
+      <div id="goze" class="goze goze1"></div>
+      <div class="gozeload2"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="play-keys" id="play-keys" role="navigation"   aria-label="You have reached the crossroads - the Goz-eh stands in the centre, waiting for you to choose a direction." tabindex="0" >
+    <div class="directions-controls" id="directions-controls" >
+      <button id="up-button" class="up-button key-button button"   aria-label="go north">&uarr;</button>
+      <button id="left-button" class="left-button key-button button"  aria-label="go west">&larr;</button>
+      <button id="down-button" class="down-button key-button button"   aria-label="go south">&darr;</button>
+      <button id="right-button" class="right-button key-button button"   aria-label="go east">&rarr;</button>  
+      <div class="extra-buttons">
+        <button class="button " id="extras-button" role="button"   aria-label="View extra information" >Extras</button>
+        <button class="button " id="credits-button" role="button"  aria-label="View credits" >Credits</button>
+        <button class="button " id="share-button" role="button"  aria-label="Share this" >Share</button>
+        <button class="button " id="subtitles-button" role="button"  aria-label="Toggle subtitles" >Subtitles: Off</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="end-overlay" class="end-option-section">
+    <div class="end-overlay" >
+
+      <div class="end-options" id="end-options" tabindex="-1">
+        <p class="end_intro" aria-hidden="true">Where next?</p>
+        <ul class="end-options-list" role="navigation">
+          <li><a id="extras-start" class="button large" href="#video-player">Extras (20 minutes)</a></li>
+          <li><a id="credits-start" class="button hollow" href="#credits">View Credits</a></li>
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+
+  
+   
+
+
+
+</div> 
+
+
+<div id="tips" class="tips-section" tabindex="-1" >
+  <div class="credits-holder">
+    <div class="text-content">
+  <h2>Tips on exploring Flight Paths</h2>
+  <h3>Introduction</h3>
+  <p>This is a digital experience of Flight Paths - an animated Goze called Taki will guide you in four directions, taking you to videos of the physical performance of Flight Paths.</p>
+  <p>Each video is approximately 15 minutes long, and the whole experience takes approximately an hour.</p>
+  <p>There is a subtitled version available.</p>
+
+  <h3>Recommended software</h3>
+  <p>We have tried to make this experience accessible to all. For the best experience we recommend:</p>
+  <h4>PC</h4>
+  <p>For visually impaired users, JAWS with Chrome is the best combination</p>
+  <h4>Mac</h4>
+  <p>For visually impaired users, Voice Over with Safari is the best combination</p>
+  <h4>Phone</h4>
+  <p>Please turn your phone so it is landscape for a better experience.</p>
+
+  <h3>Controls</h3>
+
+  <p>First, press the start, or start with subtitles button.</p>
+
+  <p>When videos are playing, you can use the space bar to pause/play and the left arrow key to skip forward a few seconds. Press the Escape key to close the videos.</p>
+
+  <p>When at the crossroads, you can press an arrow key to choose a direction. If the arrow key doesn't work (this is a known issue with Voice Over), you can tab to the different direction buttons.</p>
+
+  <p>We hope you enjoy this experience and welcome your feedback. Please email us at <a href="mailto:info@extant.org.uk">info@extant.org.uk</a> </p>
+
+  <p><button class="button" id="close-tips2">Return to Flight Paths</button></p>
+  </div>
+  </div>
+
+  <button id="tips-close" class="close-button" aria aria-label="Close this info" type="button" data-close>
+    <span aria-hidden="true">&times;</span><span class="show-for-sr">Close</span>
+  </button>
+
+</div>
+
+<div id="share" class="share-section" tabindex="-1">
+  <div class="share-holder">
+  <p>Share Flight Paths with your friends and tag us @extantltd</p>
+  <ul class="share-links">
+    <li><a class="button large" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//flightpaths.extant.org.uk/">Share on Facebook</a></li>
+    <li><a class="button large" href="https://twitter.com/intent/tweet?text=Flight%20Paths%20from%20%40extantltd%20%0Ahttps%3A//flightpaths.extant.org.uk/">Share on Twitter</a></li>
+  </ul>
+  </div>
+</div>
+
+<div id="credits" class="credits-section" tabindex="-1"  >
+  <div class="credits-holder">
+
+    <img class="credits-logo" src="./assets/images/flight_paths_logo.svg" alt="Flight Paths Logo" />
+
+    <h2>Credits</h2>
+
+    <h3>Flight Paths 2020 Team:</h3>
+      
+    <ul class="credits-list">
+        <li><strong>Artistic Director, Extant:</strong> Maria Oshodi</li>
+        <li><strong>Producer &amp; Editor:</strong> Nic Sandiland</li>
+        <li><strong>Animator:</strong> Dave Packer</li>
+        <li><strong>Web Designer:</strong> Tim Jukes</li>
+        <li><strong>Illustrator:</strong> Inko Ai Takita</li>
+        <li><strong>Story Board:</strong> Maria Oshodi</li>
+        <li><strong>Voice of the Goze:</strong> Aya Nakamura</li>
+        <li><strong>Shamisen Strikes:</strong> Hibiki Ichikawa</li>
+        <li><strong>Digital Distribution Associate, The Space:</strong> Holly Close</li>
+        <li><strong>General Manager, Extant:</strong> Rhianne Rowson</li>
+        <li><strong>Marketing Assistant, Extant:</strong> Amelia Zhou</li>
+      </ul>
+
+      <h3>Flight Paths (2019) cast and creatives:</h3>
+      
+      <ul class="credits-list">
+        <li><strong>Co-directors:</strong> Maria Oshodi &amp; Kumiko Mendl</li>
+        <li><strong>Writer:</strong> Glen Neath</li>
+        <li><strong>Cast:</strong> Amelia Cavallo &amp; Sarah Houbolt with Takashi Kikuchi &amp; Victoria Oruwari and Meg Kubota as &lsquo;The Voice&rsquo;</li>
+        <li><strong>Aerial &amp; Movement:</strong> Vicki Amedume</li>
+        <li><strong>Sound:</strong> Thor McIntyre-Burnie</li>
+        <li><strong>Audio Technologist:</strong> Tarim</li>
+        <li><strong>Designer:</strong> Becky Minto</li>
+        <li><strong>Projections:</strong> Terry Braun</li>
+        <li><strong>Lighting:</strong> Nao Nagai</li>
+        <li><strong>Assistant Director:</strong> Julie Osman</li>
+        <li><strong>Production Manager:</strong> Stacey Choudbury-Potter</li>
+        <li><strong>Stage Manager:</strong> Beatrice Galloway</li>
+        <li><strong>AV programmer:</strong> Libby Ward</li>
+        <li><strong>AV operator:</strong> Lily Woodford-Lewis</li>
+        <li><strong>Lighting Operator:</strong> Steve Lowe</li>
+        <li><strong>Relight:</strong> Ellie Whitfield</li>
+      </ul>
+
+      <p>If you enjoyed this online experience please <a href="https://www.extant.org.uk/supportus">go here to donate</a>. We thank you for your support.</p>
+    
+      <a class="extant-logo-link logo-link" href="https://extant.org.uk" aria-label="click here to go to Extant's website">
+        <img alt="extant's logo" src="./assets/images/extant-logo.png" alt="Extant Logo" />
+      </a>
+
+      <a class="space-logo-link logo-link" href="https://thespace.org" aria-label="click here to go to the Space website">
+        <img alt="logos for the Space, Arts Council England and the BBC" src="./assets/images/space-logo-lockup.png" alt="Space Logo" />
+      </a>
+
+
+      <p><button class="button" id="close-credits2">Return to Flight Paths</button></p>
+  </div>
+</div>
+
+
+<button id="close-button" class="close-button" aria-label="Close and return to crossroads" type="button" data-close>
+  <span aria-hidden="true">&times;</span><span class="show-for-sr">Close</span>
+</button>
+
+
+        </main>
+
+        <script src="./assets/build/js/main.js?id=b33ef946482c3f19c2a6"></script>
+
+            </body>
+</html>
